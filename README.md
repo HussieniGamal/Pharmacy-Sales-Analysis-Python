@@ -1,5 +1,17 @@
 # 💊 Pharmacy Sales Analysis | Python
 
+## Business value at a glance
+
+**Decision:** Which categories and demand periods deserve closer replenishment and staffing review?
+
+- Explores **2,106 daily records** and **50,532 hourly records** across **8 drug categories**.
+- The published analysis reports **N02BE at 49.4% of recorded sales volume**, with peak average hourly demand at **19:00**.
+- Turns category concentration and time patterns into hypotheses for inventory and staffing planning.
+
+**Inspect the work:** [Python notebook](notebook/pharmacy_sales_analysis.ipynb) · [Data dictionary](DATA_DICTIONARY.md) · [Published summary](project_summary.csv)
+
+**Interpretation:** Sales refer to recorded volume, not revenue or profit. The period ends on **8 October 2019**, so annual totals include an incomplete year. Patterns are descriptive; no forecast accuracy, staffing savings, or implemented sales uplift is claimed.
+
 A portfolio-ready **exploratory data analysis project** examining multi-year pharmaceutical sales across daily, weekly, monthly, and hourly datasets.
 
 The project uses Python to clean data, engineer time-based features, compare drug-category performance, identify seasonality, and translate analytical findings into practical business insights.
@@ -40,8 +52,8 @@ The project uses Python to clean data, engineer time-based features, compare dru
 
 | Finding | Result |
 |---|---|
-| Leading category | **N02BE — Paracetamol / Analgesics** |
-| Share of total sales | **49.4%** |
+| Leading category | **N02BE — Other analgesics and antipyretics** |
+| Share of recorded sales volume | **49.4%** |
 | Strongest year | **2016** |
 | Peak month | **January** |
 | Lowest-demand month | **July** |
